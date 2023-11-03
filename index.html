@@ -14,6 +14,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- FONT AWESOME LINK -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
 </head>
 <body>
 
@@ -22,12 +27,20 @@
         <div class="logo d-flex align-items-center">
             <img src="img/mobile-logo.png" alt="">
         
+
+            <nav class="navbar w-100">
+                <div class="container">
+                
+                    <form class="d-flex w-100" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    </form>
+                </div>
+            </nav>
+
+            <i class="fa-solid fa-bell mx-3" id="yellow"></i>
+
+            
         </div>
-
-        <nav>
-
-        </nav>
-
         <div class="notification">
 
         </div>
@@ -35,22 +48,46 @@
     </header>
 
     <main class="d-flex">
-        <aside class="text-white">
+        <aside class="text-white flex-column align-items-center fs-3">
+            <div class="d-flex align-items-center justify-content-center pt-4">
+                <i class="fa-solid fa-house"></i>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center pt-4">
+                <i class="fa-solid fa-chart-simple"></i>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center pt-4">
+                <i class="fa-solid fa-signal"></i>
+            </div>
         
         </aside>
 
-        <section class="main-blue text-white pt-5 px-4">
-            <div class="d-flex">
+        <section class="main-blue text-white pt-4 px-4">
+            <div class="d-flex align-items-baseline mb-3">
                 <p class="">Nuovo Studente</p>
-                <div class="mx-5">+</div>
+                <div class="mx-3 plus border rounded fs-3">+</div>
             </div>  
             
-            <div>
-                <div class="d-flex align-items-center">
+            
+                <div class="d-flex align-items-baseline">
                     <p class="fs-2">Boolean</p>
-                    <p class="border-radius mx-2">Piano blaze</p>
+                    <p class="my-border-radius mx-2 px-2">Piano blaze</p>
                 </div>
-            </div>
+                
+                <div class="d-flex align-items-baseline justify-content-start mb-2">
+                    <p class="my-border-radius px-2">3 app</p>
+                    <p> >> </p>
+                    <p class="my-border-radius mx-2 px-2">+</p>
+                </div>
+
+                <div class="d-flex align-items-baseline justify-content-start">
+                    <p class="px-1">Studenti online negli ultimi 30 minuti</p>
+                </div>
+                <div class="d-flex align-items-baseline mb-3">
+                    <p class="fs-1">125</p>
+                </div>
+            
         </section>
 
 

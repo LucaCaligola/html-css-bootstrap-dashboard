@@ -10,18 +10,18 @@ header {
     display: fixed;
 }
 
+
+
 aside {
-    width: 70px;
+    width: 80px;
     height: 100vh;
     background-color: #122A3E;
-    display: fixed;
-   
-    
+    display: fixed;  
 }
 
 .main-blue {
     width: 100%;
-   height: 400px;
+   height: 40%;
    background-color: #1B72E8;
 
 }
@@ -32,8 +32,24 @@ aside {
     height: 70px;
 }
 
-.border-radius {
-    background-color: #165BBA;
-    border-radius: 10px;
-    padding: 3px;
+#yellow {
+    color: #FF8F00;
 }
+
+.plus {
+    
+    height: 40px;
+    width: 40px;
+    padding: 0px 11px;
+    
+}
+
+.my-border-radius {
+    background-color: #165BBA;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+
+
+
