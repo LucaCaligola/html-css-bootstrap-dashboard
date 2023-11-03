@@ -14,15 +14,15 @@ header {
 
 aside {
     width: 80px;
-    height: 100vh;
+    height: calc( 100vh - 70px);
     background-color: #122A3E;
-    display: fixed;  
+     
 }
 
 .main-blue {
     width: 100%;
-   height: 40%;
-   background-color: #1B72E8;
+    height: 40%;
+    background-color: #1B72E8;
 
 }
 
