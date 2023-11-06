@@ -10,6 +10,9 @@ header {
     display: fixed;
 }
 
+.my-display-none-lg {
+    display: none;
+}
 
 
 aside {
@@ -51,8 +54,45 @@ aside {
     background-color: #165BBA;
     border-radius: 15px;
     padding: 2px;
+    font-size: 12px;
+}
+
+.my-display-none {
+    display: none;
 }
 
 
 
+
+/* TABLET RESPONSIVRE CSS  */
+
+@media screen and (min-width: 768px) {
+   
+
+    .new-student {
+        order: 3;
+    }
+
+}
+
+
+
+
+/* DESKTOP RESPONSIVE CSS  */
+@media screen and (min-width: 992px) {
+
+    .my-display-none-lg {
+        display: inline-block;
+    }
+    .my-display-none {
+        display: inline-block;
+        
+    }
+
+    aside {
+        width: 120px;
+    }
+
+
+}
 

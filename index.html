@@ -36,8 +36,16 @@
                     </form>
                 </div>
             </nav>
+                <div class="d-flex">
+                    <i class="fa-solid fa-list-ul mx-2 "></i>
 
-            <i class="fa-solid fa-bell mx-3" id="yellow"></i>
+                    <i class="fa-solid fa-circle-question mx-2"></i>
+
+                    <i class="fa-solid fa-ellipsis-vertical mx-2"></i>
+                </div>
+
+            <i class="fa-solid fa-bell mx-2" id="yellow"></i>
+            
 
             
         </div>
@@ -47,25 +55,29 @@
 
     </header>
 
-    <main class="d-flex">
-        <aside class="text-white d-flex flex-column align-items-center justify-content-between fs-2">
+    <section class="d-flex top">
+        <aside class="text-white d-flex flex-column align-items-center justify-content-between fs-6">
             <div>
                 <div class="d-flex align-items-center justify-content-center pt-4">
                     <i class="fa-solid fa-house"></i>
+                    <p class="my-0 my-display-none px-2">Home</p>
                 </div>
 
                 <div class="d-flex align-items-center justify-content-center pt-4">
                     <i class="fa-solid fa-chart-simple"></i>
+                    <p class="my-0 my-display-none px-2">Stats</p>
                 </div>
 
                 <div class="d-flex align-items-center justify-content-center pt-4">
                     <i class="fa-solid fa-signal"></i>
+                    <p class="my-0 my-display-none px-2">Signals</p>
                 </div>
             </div>
 
             <div class=" ">
-                <div class="d-flex justify-content-center py-4">
+                <div class="d-flex justify-content-center align-items-center py-4">
                     <i class="fa-solid fa-gear"></i>
+                    <p class="my-0 my-display-none px-2">Admin</p>
                 </div>
             </div>    
 
@@ -73,15 +85,16 @@
 
         <section class="main-section text-white">
             <div class="container-fluid main-blue pt-4 px-4">
-                <div class="row">
-                    <div class="d-flex align-items-baseline mb-3 col-md-4">
+                <div class="row d-flex justify-content-between">
+                    
+                    <div class="d-flex align-items-baseline mb-3 col-md-3 new-student">
                         <p class="">Nuovo Studente</p>
                         <div class="mx-3 plus border rounded fs-3 d-flex justify-content-center align-items-center px-3 py-2">+</div>
                     </div>
                  
 
                 
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="d-flex align-items-baseline">
                             <p class="fs-2">Boolean</p>
                             <p class="my-border-radius mx-2 px-2">Piano blaze</p>
@@ -91,10 +104,13 @@
                             <p class="my-border-radius px-2">3 app </p>
                             <p class="mx-1">>></p>
                             <p class="my-border-radius mx-1 px-2">+</p>
+                            <p class="my-border-radius mx-1 px-2 my-display-none">Boolean mobile app</p>
+                            <p class="my-border-radius mx-1 px-2 my-display-none">Boolean web app</p>
+                            <p class="my-border-radius mx-1 px-2 my-display-none">Boolean blog app</p>
                         </div>
                     </div>
                   
-                    <div class="col-md-4">
+                    <div class="col-md-4 extras">
                         <div class="">
                             <p class="px-1 pt-2">Studenti online negli ultimi 30 minuti</p>
                             <p class="fs-1">125</p>
@@ -103,11 +119,41 @@
               
 
                 </div>
-            </div>  
+            </div> 
+            
+            
+            <section class="container-fluid pt-4 px-4">
+                <div class="row">
+                    <table class="table border">
+                        <thead>
+                            <tr>
+                                <th class="fs-2 fw-normal">Prossime classi</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Nome</td>
+                                <td>Data inizio</td>
+                                <td>ROI</td>
+                                <td>Stato</td>
+                                <td>Azioni</td>
+                            </tr>
+                            <tr>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>  
         </section>
-
-
-    </main>
+    </section>
+    
     
 </body>
 </html>
