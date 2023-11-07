@@ -25,6 +25,8 @@ aside {
 
 .main-section {
     width: calc(100% - 80px);
+    height: calc(100vh - 70px);
+    overflow: auto;
     
 }
 
@@ -50,6 +52,8 @@ aside {
 
 }
 
+
+
 .my-border-radius {
     background-color: #165BBA;
     border-radius: 15px;
@@ -60,7 +64,7 @@ aside {
 .table-border-radius {
     color: white;
     border-radius: 10px;
-    width: 70%;
+    width: 60px;
     
 }
 
