@@ -89,7 +89,7 @@
             <div class="container-fluid main-blue pt-4 px-4 text-white">
                 <div class="row d-flex justify-content-between align-items-baseline">
                     
-                    <div class="d-flex align-items-baseline mb-3 col-md-3 new-student justify-content-end">
+                    <div class="d-flex align-items-baseline mb-3 col-md-3 new-student">
                         <p class="">Nuovo Studente</p>
                         <div class="mx-3 plus border rounded fs-3 d-flex justify-content-center align-items-center px-3 py-2">+</div>
                     </div>
@@ -128,7 +128,7 @@
 
             <!-- INIZIO TABELLA  -->
             <section class="container-fluid pt-4 px-4">
-                <div class="row">
+                <div class="row p-0">
                     <div class="col-12 col-lg-8 my-4">
                        <div class="border rounded-3">
                             <h2 class="border-bottom py-3 px-2">Prossime classi</h2>
@@ -136,22 +136,22 @@
                             <table class="table">
                                 <tbody class="">
                                     <tr class="">
-                                        <td class="pt-1">Nome</td>
+                                        <th class="pt-1 fw-normal">Nome</th>
 
                                         <div class="pt-3">
-                                            <td class="my-display-none-lg text-end px-3">Data inizio</td>
-                                            <td class="my-display-none-lg text-end px-3">ROI</td>
-                                            <td class="text-end px-3">Stato</td>
-                                            <td class="text-end px-4">Azioni</td>
+                                            <th class="my-display-none-lg px-3 fw-normal my-th-witdh-start">Data inizio</th>
+                                            <th class="my-display-none-lg px-3 fw-normal my-th-witdh-center">ROI</th>
+                                            <th class=" px-3 fw-normal my-th-witdh-center">Stato</th>
+                                            <th class="px-4 fw-normal my-th-witdh">Azioni</th>
                                         </div>
                                     </tr>
                                     <tr class="">
                                         <td><img src="img/class-avatar.jpg" alt="Logo classe"> Classe 75</td>
-                                        <td class="my-display-none-lg text-end">15 Feb 2021</td>
-                                        <td class="my-display-none-lg text-end">20%</td>
+                                        <td class="my-display-none-lg">15 Feb 2021</td>
+                                        <td class="my-display-none-lg">20%</td>
                                         <td class=""><div class="table-border-radius green text-center ">Done</div></td>
                                         <td>
-                                            <div class="check-color text-end">
+                                            <div class="check-color">
                                                 <i class="fa-solid fa-pen border border-secondary rounded-2 p-2"></i>
                                                 <i class="fa-solid fa-trash border border-secondary rounded-2 p-2"></i>
                                             </div>
@@ -280,65 +280,58 @@
                             </div> 
                         </div>           
                     </div>
-                    
 
-                    
 
-                  
+                    <!-- INIZIO TODO -->
+                    <div class="col-12 col-lg-4 my-4">
+                        <div class="border rounded-3">
+                            <h2 class="border-bottom py-3 px-2">Todo</h2>
+                            <div class="border rounded-3 my-3 mx-3">
+                                <div class="d-flex align-items-cente border-bottom px-2">
+                                    <input type="checkbox"> 
+                                    <span class="px-2 py-1">Kickoff nuove classe</span>
+                                </div>
+                                <div class="d-flex align-items-center pt-2 border-bottom px-2">
+                                    <input type="checkbox"> 
+                                    <span class="px-2 py-1">Kickoff nuove classe</span>
+                                </div>
+                                <div class="d-flex align-items-center py-2 border-bottom px-2">
+                                    <input type="checkbox"> 
+                                    <span class="px-2 py-1">Kickoff nuove classe</span>
+                                </div>
+                            </div>
+                        </div>
 
 
 
                         
-
-                    
-                    
-
-
-
-                </div>
-
-                <!-- INIZIO TODO -->
-                <div class="col-12 col-lg-4 my-4">
-                    <div class="border rounded-3">
-                        <h2 class="border-bottom py-3 px-2">Todo</h2>
-                        <div class="border rounded-3 my-3 mx-3">
-                            <div class="d-flex align-items-cente border-bottom px-2">
-                                <input type="checkbox"> 
-                                <span class="px-2 py-1">Kickoff nuove classe</span>
-                            </div>
-                            <div class="d-flex align-items-center pt-2 border-bottom px-2">
-                                <input type="checkbox"> 
-                                <span class="px-2 py-1">Kickoff nuove classe</span>
-                            </div>
-                            <div class="d-flex align-items-center py-2 border-bottom px-2">
-                                <input type="checkbox"> 
-                                <span class="px-2 py-1">Kickoff nuove classe</span>
-                            </div>
+                        <!-- INIZIO SEZIONE STATISTICHE  -->
+                        <div class="border rounded-3 mt-4">
+                            <div class="border rounded statistiche my-3 mx-3">
+                                    <img src="img/stats.jpeg" alt="Immagine grafico">
+                                    <div class="mx-3">
+                                        <p class="fs-4">Utenti attivi</p>
+                                        <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                    </div>
+                                    <div class="">
+                                        <p class="border-bottom px-3 py-1">Gennaio: 1200</p>
+                                        <p class="border-bottom px-3 py-1">Febraio: 800</p>
+                                        <p class="border-bottom px-3 py-1">Marzo: 1500</p>
+                                        <p class="link-info text-decoration-underline px-3">Visualizza report approfondito</p>
+                                    </div>
+                                
+                            </div> 
+                            
                         </div>
                     </div>
 
 
 
                     
-                    <!-- INIZIO SEZIONE STATISTICHE  -->
-                    <div class="border rounded-3 mt-4">
-                        <div class="border rounded-3 statistiche my-3 mx-3">
-                                <img src="img/stats.jpeg" alt="Immagine grafico">
-                                <div class="mx-3">
-                                    <p class="fs-4">Utenti attivi</p>
-                                    <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
-                                </div>
-                                <div class="">
-                                    <p class="border-bottom px-3 py-1">Gennaio: 1200</p>
-                                    <p class="border-bottom px-3 py-1">Febraio: 800</p>
-                                    <p class="border-bottom px-3 py-1">Marzo: 1500</p>
-                                    <p class="link-info text-decoration-underline px-3">Visualizza report approfondito</p>
-                                </div>
-                            
-                        </div> 
-                        
-                    </div>
                 </div>
+
+
+                
 
 
                
